@@ -449,6 +449,7 @@ class VolleyballBot:
 
                     if block_touch == 'E':
                         player_stats[player_num]["attack_errors"] += 1
+                        player_stats[player_num]["attack_type_F"]["total"] += 1
 
                     if quality == '#':
                         player_stats[player_num]["won_attacks"] += 1
